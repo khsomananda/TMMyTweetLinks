@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyTweetLinks</string>
+
+
+    <string name="CONSUMER_KEY">OgNSHntsmQqEWa525wx0e5RaY</string>
+    <string name="CONSUMER_SECRET">I1kKAafpE6lcPXJvGBREELZDfCysFGuw590PGlodoCtgDXPZiX</string>
+    <string name="title_activity_show_tweet">ShowTweetActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

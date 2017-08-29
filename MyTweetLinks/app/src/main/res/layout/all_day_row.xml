@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/date_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12-07-2017"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#45afbd"
+        android:textSize="20sp"
+        />
+
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#b4b3b3"
+
+        />
+
+</LinearLayout>

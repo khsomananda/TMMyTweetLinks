@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    >
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tod_yes_row_time"
+            android:textSize="11sp"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:text="6.25 p.m. 01/07/2017"/>
+        <ImageView
+            android:padding="7dp"
+            android:id="@+id/delete_tweet"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:alpha=".30"
+
+            android:src="@drawable/ic_more_vert_black_24dp"
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:src="@drawable/profilephoto"
+            app:civ_border_color="#FF000000"
+            android:id="@+id/tod_yes_row_profile_photo"
+            />
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tod_yes_row_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Somananda Singh"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#151515"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:paddingRight="10dp"
+                android:id="@+id/tod_yes_row_link"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="google.com"
+                android:textSize="14sp"
+                android:textColor="#0084b4"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#b4b3b3"
+
+        />
+
+</LinearLayout>

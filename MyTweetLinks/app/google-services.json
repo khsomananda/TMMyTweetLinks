@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59772846174",
+    "firebase_url": "https://mytweetlinks.firebaseio.com",
+    "project_id": "mytweetlinks",
+    "storage_bucket": "mytweetlinks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59772846174:android:20b8fe88e666e028",
+        "android_client_info": {
+          "package_name": "com.miodox.mytweetlinks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59772846174-jnb8475572npbl20c0cqmb7fvmot93cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBExwDimwrbhohe_pnMby38NALiV-rtCno"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
